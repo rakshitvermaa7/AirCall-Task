@@ -1,0 +1,67 @@
+#app {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  font-family: "Gill Sans", sans-serif;
+}
+
+#app .container {
+  width: 376px;
+  height: 666px;
+  z-index: 100;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .9);
+}
+
+#app .container-view {
+  padding: 20px;
+}
+
+.main {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 40vh;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .main {
+    width: 40vh;
+    height: 65vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main {
+    width: 40vh;
+    height: 65vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main {
+    width: 40vh;
+    height: 65vh;
+  }
+}
+
+.tabBar {
+  margin-right: 20px;
+}
+
+.callLogsList {
+  flex-grow: 1;
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow: scroll;
+}
+
+/* .footer {
+} */

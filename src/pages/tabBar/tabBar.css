@@ -1,0 +1,29 @@
+/* TabBar.css */
+.tab-bar {
+    display: flex;
+    justify-content: center;
+    background: #ffffff; /* Replace with the actual background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow to lift the tab bar */
+    margin-bottom: 20px; /* Spacing below the tab bar */
+  }
+  
+  .tab-bar button {
+    flex-grow: 1;
+    padding: 10px 15px;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tab-bar button:hover,
+  .tab-bar button:focus {
+    background-color: #f0f0f0; /* Slight background on hover/focus for feedback */
+  }
+  
+  .tab-bar button.active {
+    border-bottom: 2px solid #22c1c3; /* Highlight color for active tab */
+    font-weight: bold;
+  }
+  
