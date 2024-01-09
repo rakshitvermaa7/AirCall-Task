@@ -16,7 +16,7 @@
   z-index: 100;
   background: white;
   border-radius: 3px;
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .9);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.9);
 }
 
 #app .container-view {
@@ -26,22 +26,27 @@
 .main {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 40vh;
-  height: 65vh;
+  width: 66.666vw !important;
+  height: 65vh !important;
   display: flex;
   flex-direction: column;
 }
+
 @media (min-width: 768px) {
   .main {
-    width: 40vh;
-    height: 65vh;
+    width: 27vw !important;
+    height: 90vh !important;
+    max-height: 700px !important; 
+    max-width: 400px !important;
   }
 }
 
 @media (min-width: 1024px) {
   .main {
-    width: 40vh;
+    width: 40vw;
     height: 65vh;
+    max-height: 700px !important; 
+    max-width: 400px !important;
   }
 }
 
@@ -60,8 +65,5 @@
   flex-grow: 1;
   padding-left: 15px;
   padding-right: 15px;
-  overflow: scroll;
+  overflow-y: scroll;
 }
-
-/* .footer {
-} */
